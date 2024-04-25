@@ -13,10 +13,10 @@
 
 ## Alkalmazott függvények:
 
-**kartyakOsszeallitasa() -> visszatérés: txt**
+**kartyakOsszeallitasa(lista) -> visszatérés: txt**
 Adatokat állítja össze a kártyákhoz, lista generálása.
 
-**kartyakMegjelenites()**
+**kartyakMegjelenites(txt)**
 Megjeleníti a kártyákat.
 
 **kosarbaButton(termekIndex) -> visszatérés: lista**
@@ -37,6 +37,8 @@ A kosárban lévő termékeket a gombra kattintva törölni fogjuk
 **urlapAdatok(lista)**
 Adatokat elhelyezi a rendelésbe.
 
+**osszegezMindent()**
+Itt hívem meg a "main"-ben az összes metódust
 
 
 
