@@ -21,7 +21,7 @@ export function kartyakOsszeallitasa(lista) {
         txt += `<h4 class="card-title">${element.nev}</h4>`;
         txt += `<p class="card-text">${element.ar}Ft</p>`;
         txt += `</div>`;
-        txt += `<button type="button" class="btn btn-default" id = "gomb" style = "background-color: rgb(0, 1, 79); color: white; gap: 50px;">Kosárba</button>`;
+        txt += `<button type="button" class="btn btn-default gomb" id = "${i}" style = "background-color: rgb(0, 1, 79); color: white; gap: 50px;">Kosárba</button>`;
         txt += `</div>`;
         
 
@@ -34,8 +34,15 @@ export function megjelenitesKartyak(txt){
     kartyaELEM.html(txt);
 }
 
-export function kosarbaButton() {
-    $("#gomb").on("click", function(event) {
-        
+let kosar = [];
+
+
+export function kosarbaButton(termekIndex) {
+    const gombELEM = $(".gomb");
+    $(".gomb").on("click", function(event) {
+        console.log(event.target.id);
+
     })
 }
+    
+

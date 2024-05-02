@@ -1,9 +1,8 @@
 import { polokLista } from "./adat.js";
-import { kartyakOsszeallitasa, megjelenitesKartyak } from "./fuggvenyek.js";
+import { kartyakOsszeallitasa, kosarbaButton, megjelenitesKartyak } from "./fuggvenyek.js";
 
 
 
 megjelenitesKartyak(kartyakOsszeallitasa(polokLista))
-
 
 
