@@ -16,7 +16,7 @@
 **kartyakOsszeallitasa(lista) -> visszatérés: txt**
 Adatokat állítja össze a kártyákhoz, lista generálása.
 
-**kartyakMegjelenites(txt)**
+**megjelenitesKartyak(txt)**
 Megjeleníti a kártyákat.
 
 **kosarbaButton(termekIndex) -> visszatérés: lista**
