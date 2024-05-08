@@ -38,10 +38,15 @@
                         <label for="szures">Szűrés ár szerint:</label><br>
                         <input type="range" class="form-range" name="szures" id="szures" oninput="this.form.szures.value = this.value">
                     </form> 
+                    <select id = "rendezes" name = "" class = "form-select sorm select-sm">
+                        <option value="azrendezes">a-z szerinti rendezés</option>
+                        <option value="arcs">ár szerint csökkenő</option>
+                        <option value="arn">ár szerint növekvő</option>
+                    </select>
                 </div>
             </aside>
             <article class = "col-sm-7">
-                <div id = "kartyak" class = "row">
+                <div id = "kartyak" class = "row d-flex justify-content-around">
 
                 </div>
             
@@ -51,11 +56,13 @@
             <aside class="col-sm-3" id = "kosar">
                 <div>
                     <h2 style="font-size: medium;">Kosár tartalma: </h2>
-                    <ul class="list-group">
-                        <li class="list-group-item" id = "elsokosar"></li>
-                        <li class="list-group-item"></li>
-                        <li class="list-group-item"></li>
-                    </ul>
+                    <div class = "kosar">
+
+                    </div>
+                    <div>
+                        <h2>Összesen: </h2>
+                        
+                    </div>
                     <button class="col-sm-6"  style="font-size: small; background-color: rgba(1, 4, 33, 1); color: rgba(255, 255, 255, 1); height: 45px;">Tovább a fizetéshez</button>
                     
                     
